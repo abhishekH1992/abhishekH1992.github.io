@@ -1,0 +1,72 @@
+/* your styles go here */
+
+.font-color{
+	color: #9055A2;
+}
+
+.hexaHolder{
+    height: 115px;
+    width: 99px;
+    float: left;
+}
+.hexa img{
+    width:130%;
+    margin-top: -5px;
+    margin-left:-50px
+}
+.hexa, .hexa div {
+    margin: 0 auto;
+    transform-origin: 50% 50%;
+    overflow: hidden;
+}
+.hexa {
+    text-align: center;
+    margin: 0;
+    width: 270px;
+    height: 315px;
+}
+.hexa div {
+  width: 100%;
+  height: 100%;
+}
+.hexa {
+  transform: rotate(120deg);
+}
+.hex1 {
+  transform: rotate(-60deg);
+}
+.hex2 {
+  transform: rotate(-60deg);
+}
+
+.hex-row {
+    clear: left;
+}
+
+.hexaHolder.even {
+    margin-top: 57.5px;
+}
+
+#wrap {
+    min-width:600px;    
+}
+
+.checkout {
+    background: none;
+    border: 1px solid white;
+    position: relative;
+    left: 150px;
+    top: 80px;
+}
+
+.fa-icont-font{
+	font-size: 30px;
+}
+
+.tp-margin{
+	margin-top: 20px;
+}
+
+footer.main-footer{
+	padding: 15px 0px !important;
+}
